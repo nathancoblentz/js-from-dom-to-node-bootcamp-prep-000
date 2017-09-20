@@ -1,5 +1,9 @@
-console.log("Hello World");
-if 2 > 5 {
-  console.log("blibbity");
+var dog = "thirsty"
+ 
+if (dog === "hungry") {
+  console.log("Refilling food bowl.")
+} else if (dog === "thirsty") {
+  console.log("Refilling water bowl.")
+} else {
+  console.log("Reading newspaper.")
 }
-else console.log("boo");
